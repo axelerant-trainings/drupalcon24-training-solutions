@@ -1,0 +1,10 @@
+uuid: be2e67d8-6dda-4913-bdd7-ce060f9f14c3
+langcode: en
+status: true
+dependencies: {  }
+id: dresses
+label: Dresses
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

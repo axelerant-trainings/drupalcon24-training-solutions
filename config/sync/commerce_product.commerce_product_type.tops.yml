@@ -1,0 +1,13 @@
+uuid: a0a62bd7-2d1c-4200-a43f-fa03b5c041d7
+langcode: en
+status: true
+dependencies: {  }
+id: tops
+label: Tops
+traits: {  }
+locked: false
+description: ''
+variationTypes:
+  - tops
+multipleVariations: true
+injectVariationFields: true
