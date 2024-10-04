@@ -1,0 +1,22 @@
+uuid: 9b798452-8821-46b3-b20d-d74e25d0be07
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.dresses
+id: commerce_product.dresses.status
+field_name: status
+entity_type: commerce_product
+bundle: dresses
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
