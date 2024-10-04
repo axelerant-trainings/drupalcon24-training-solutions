@@ -1,12 +1,17 @@
-uuid: 1186bc3c-9df8-429d-a61b-eab7d236c221
+uuid: d381d00d-2a59-4acc-bdb1-4ddde87b0413
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_type.tops
     - field.field.commerce_product.tops.body
+    - field.field.commerce_product.tops.field_brand
+    - field.field.commerce_product.tops.field_category
+    - field.field.commerce_product.tops.field_description
+    - field.field.commerce_product.tops.field_tags
   module:
     - commerce
+    - inline_entity_form
     - path
     - text
 id: commerce_product.tops.default
@@ -16,7 +21,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 1
+    weight: 2
     region: content
     settings:
       rows: 9
@@ -26,26 +31,64 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_brand:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_category:
+    type: entity_reference_autocomplete
+    weight: 8
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_description:
+    type: text_textarea
+    weight: 10
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_autocomplete
+    weight: 9
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 90
+    weight: 7
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   stores:
     type: commerce_entity_select
-    weight: -10
+    weight: 0
     region: content
     settings:
       hide_single_entity: true
@@ -55,7 +98,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 1
     region: content
     settings:
       size: 60
@@ -63,7 +106,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -71,5 +114,17 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  variations: true
+  variations:
+    type: inline_entity_form_simple
+    weight: 6
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      collapsible: false
+      collapsed: false
+      revision: false
+    third_party_settings: {  }
+hidden: {  }
