@@ -1,0 +1,86 @@
+uuid: b358f88f-f357-4cea-b2b6-8c10662c4c3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.tops
+    - field.field.commerce_product_variation.tops.attribute_brand
+    - field.field.commerce_product_variation.tops.attribute_color
+    - field.field.commerce_product_variation.tops.attribute_general_size
+    - field.field.commerce_product_variation.tops.attribute_size
+    - field.field.commerce_product_variation.tops.attribute_style
+  module:
+    - commerce_price
+id: commerce_product_variation.tops.default
+targetEntityType: commerce_product_variation
+bundle: tops
+mode: default
+content:
+  attribute_brand:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  attribute_color:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  attribute_general_size:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  attribute_size:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  attribute_style:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  list_price:
+    type: commerce_list_price
+    weight: -1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  price:
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 90
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

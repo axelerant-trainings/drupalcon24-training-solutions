@@ -1,0 +1,22 @@
+uuid: 064f628f-c543-4e95-8129-2fbb78aa3318
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.t_shirts
+id: commerce_product.t_shirts.status
+field_name: status
+entity_type: commerce_product
+bundle: t_shirts
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
