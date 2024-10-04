@@ -1,19 +1,19 @@
-uuid: ded82be2-15ba-48a3-8ee1-b4b158ed81f2
+uuid: 652cc6b2-b680-4c06-a2a0-23032da2fed7
 langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_variation_type.tops
-    - field.field.commerce_product_variation.tops.attribute_color
-    - field.field.commerce_product_variation.tops.attribute_sizes
-    - field.field.commerce_product_variation.tops.field_images
+    - commerce_product.commerce_product_variation_type.t_shirts
+    - field.field.commerce_product_variation.t_shirts.attribute_color
+    - field.field.commerce_product_variation.t_shirts.attribute_sizes
+    - field.field.commerce_product_variation.t_shirts.field_images
     - image.style.thumbnail
   module:
     - commerce_price
     - image
-id: commerce_product_variation.tops.default
+id: commerce_product_variation.t_shirts.default
 targetEntityType: commerce_product_variation
-bundle: tops
+bundle: t_shirts
 mode: default
 content:
   attribute_color:
@@ -24,7 +24,7 @@ content:
     third_party_settings: {  }
   attribute_sizes:
     type: options_select
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }

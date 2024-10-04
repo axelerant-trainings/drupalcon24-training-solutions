@@ -1,10 +1,14 @@
-uuid: a9ed0452-c9ee-4698-878c-0d6ec49ac2e8
+uuid: b7979f1d-759c-4057-9456-4ff142f8cdca
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_type.tops
     - field.field.commerce_product.tops.body
+    - field.field.commerce_product.tops.field_brand
+    - field.field.commerce_product.tops.field_category
+    - field.field.commerce_product.tops.field_description
+    - field.field.commerce_product.tops.field_tags
   module:
     - commerce_product
     - text
@@ -19,6 +23,37 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 11
+    region: content
+  field_brand:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 14
     region: content
   title:
     type: string

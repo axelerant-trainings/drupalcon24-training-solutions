@@ -1,4 +1,4 @@
-uuid: be2e67d8-6dda-4913-bdd7-ce060f9f14c3
+uuid: d0ef6c48-caa6-4a7f-9e78-64a1de0862c5
 langcode: en
 status: true
 dependencies: {  }
@@ -7,4 +7,4 @@ label: Dresses
 traits: {  }
 locked: false
 orderItemType: default
-generateTitle: null
+generateTitle: false
