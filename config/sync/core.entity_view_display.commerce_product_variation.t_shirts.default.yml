@@ -7,6 +7,7 @@ dependencies:
     - field.field.commerce_product_variation.t_shirts.attribute_color
     - field.field.commerce_product_variation.t_shirts.attribute_sizes
     - field.field.commerce_product_variation.t_shirts.field_images
+    - field.field.commerce_product_variation.t_shirts.maximum_order_quantity
   module:
     - commerce_price
     - image
@@ -47,6 +48,7 @@ content:
 hidden:
   attribute_color: true
   attribute_sizes: true
+  maximum_order_quantity: true
   product_id: true
   sku: true
   title: true
