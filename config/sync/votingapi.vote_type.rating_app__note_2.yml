@@ -1,0 +1,10 @@
+uuid: 1e13863a-e78e-4e41-af2c-127bc6cf175f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rrMbdYc_dtf2jdtyldqvo7Vmsz-NYS6M4Rkz5PitdoY
+id: rating_app__note_2
+label: 'Rating app note 2'
+value_type: points
+description: ''

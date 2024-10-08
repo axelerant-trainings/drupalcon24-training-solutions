@@ -4,13 +4,17 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_type.tops
+    - core.entity_view_display.comment.product_comments.default
     - field.field.commerce_product.tops.body
     - field.field.commerce_product.tops.field_brand
     - field.field.commerce_product.tops.field_category
     - field.field.commerce_product.tops.field_description
+    - field.field.commerce_product.tops.field_feature_product
+    - field.field.commerce_product.tops.field_product_review
     - field.field.commerce_product.tops.field_tags
   module:
     - commerce_product
+    - rating_app
     - text
 id: commerce_product.tops.default
 targetEntityType: commerce_product
@@ -46,6 +50,26 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 15
+    region: content
+  field_feature_product:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_product_review:
+    type: rating_app_reviews_resume_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+      comments_per_pages: 10
+    third_party_settings: {  }
+    weight: 17
     region: content
   field_tags:
     type: entity_reference_label

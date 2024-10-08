@@ -1,0 +1,10 @@
+uuid: 9adb5ad1-fa41-4578-acad-ae772bce340d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lXY-UEntSl2AsQ82ZVvwd8k1wBwolLYaKMKIB3mMLPU
+id: rating_app__note_5
+label: 'Rating app note 5'
+value_type: points
+description: ''

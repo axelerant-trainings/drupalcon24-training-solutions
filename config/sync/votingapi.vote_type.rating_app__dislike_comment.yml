@@ -1,0 +1,10 @@
+uuid: 9aaa158d-f1b6-4a79-b525-348d58125f18
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LlXTxmxwhrw-E1xY3tsxn1gTkLPTY5A3g41NKozUNoc
+id: rating_app__dislike_comment
+label: 'Rating app dislike comment'
+value_type: points
+description: ''

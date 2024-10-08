@@ -1,0 +1,33 @@
+uuid: f3eaccd1-7fb7-4145-bdc2-d5ef94ee5180
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tops
+    - field.storage.commerce_product.field_product_review
+  module:
+    - comment
+id: commerce_product.tops.field_product_review
+field_name: field_product_review
+entity_type: commerce_product
+bundle: tops
+label: 'Product Review'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 0
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

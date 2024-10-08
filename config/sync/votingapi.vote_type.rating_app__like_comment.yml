@@ -1,0 +1,10 @@
+uuid: 420e0609-12e7-4640-8d43-a9771377be37
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OOz2HYEP2gYyt-k3_MMK94iRPYuOX0F5oBGtqV4SBdY
+id: rating_app__like_comment
+label: 'Rating app Like comment'
+value_type: points
+description: ''
