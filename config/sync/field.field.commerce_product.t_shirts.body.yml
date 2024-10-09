@@ -11,7 +11,7 @@ id: commerce_product.t_shirts.body
 field_name: body
 entity_type: commerce_product
 bundle: t_shirts
-label: Body
+label: Information
 description: ''
 required: false
 translatable: true

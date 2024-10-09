@@ -8,9 +8,14 @@ dependencies:
     - field.field.commerce_product.tops.field_brand
     - field.field.commerce_product.tops.field_category
     - field.field.commerce_product.tops.field_description
+    - field.field.commerce_product.tops.field_feature_product
+    - field.field.commerce_product.tops.field_product_average_rating
+    - field.field.commerce_product.tops.field_product_review
     - field.field.commerce_product.tops.field_tags
   module:
+    - comment
     - commerce
+    - fivestar
     - inline_entity_form
     - path
     - text
@@ -21,7 +26,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 9
     region: content
     settings:
       rows: 9
@@ -31,13 +36,13 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 11
     region: content
     settings: {  }
     third_party_settings: {  }
   field_brand:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 6
     region: content
     settings:
       match_operator: CONTAINS
@@ -47,7 +52,7 @@ content:
     third_party_settings: {  }
   field_category:
     type: entity_reference_autocomplete
-    weight: 8
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
@@ -57,15 +62,37 @@ content:
     third_party_settings: {  }
   field_description:
     type: text_textarea
-    weight: 10
+    weight: 8
     region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
+  field_feature_product:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_product_average_rating:
+    type: fivestar_stars
+    weight: 14
+    region: content
+    settings:
+      text_format: none
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+  field_product_review:
+    type: comment_default
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete
-    weight: 9
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
@@ -75,13 +102,13 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 12
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 7
+    weight: 2
     region: content
     settings:
       display_label: true
@@ -106,7 +133,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 10
     region: content
     settings:
       match_operator: CONTAINS
@@ -116,7 +143,7 @@ content:
     third_party_settings: {  }
   variations:
     type: inline_entity_form_simple
-    weight: 6
+    weight: 7
     region: content
     settings:
       form_mode: default
