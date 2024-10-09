@@ -4,8 +4,7 @@ status: true
 dependencies: {  }
 id: t_shirts
 label: T-shirts
-traits:
-  - maximum_order_quantity
+traits: {  }
 locked: false
 orderItemType: default
 generateTitle: false

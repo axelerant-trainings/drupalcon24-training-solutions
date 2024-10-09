@@ -7,7 +7,6 @@ dependencies:
     - field.field.commerce_product_variation.tops.attribute_color
     - field.field.commerce_product_variation.tops.attribute_sizes
     - field.field.commerce_product_variation.tops.field_images
-    - field.field.commerce_product_variation.tops.maximum_order_quantity
   module:
     - commerce_price
     - image
@@ -48,7 +47,6 @@ content:
 hidden:
   attribute_color: true
   attribute_sizes: true
-  maximum_order_quantity: true
   product_id: true
   sku: true
   title: true

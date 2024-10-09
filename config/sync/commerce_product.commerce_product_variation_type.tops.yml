@@ -4,8 +4,7 @@ status: true
 dependencies: {  }
 id: tops
 label: Tops
-traits:
-  - maximum_order_quantity
+traits: {  }
 locked: false
 orderItemType: default
 generateTitle: false

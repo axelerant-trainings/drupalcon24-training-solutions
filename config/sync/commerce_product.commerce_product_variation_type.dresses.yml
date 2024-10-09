@@ -4,8 +4,7 @@ status: true
 dependencies: {  }
 id: dresses
 label: Dresses
-traits:
-  - maximum_order_quantity
+traits: {  }
 locked: false
 orderItemType: default
 generateTitle: false
