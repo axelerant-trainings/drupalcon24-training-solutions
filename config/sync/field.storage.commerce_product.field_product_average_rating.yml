@@ -1,0 +1,20 @@
+uuid: ef2054f5-ed39-48fb-ba3d-2dae9a64bb50
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - fivestar
+id: commerce_product.field_product_average_rating
+field_name: field_product_average_rating
+entity_type: commerce_product
+type: fivestar
+settings:
+  vote_type: vote
+module: fivestar
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
