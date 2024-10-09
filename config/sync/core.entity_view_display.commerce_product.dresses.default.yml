@@ -8,6 +8,7 @@ dependencies:
     - field.field.commerce_product.dresses.field_brand
     - field.field.commerce_product.dresses.field_category
     - field.field.commerce_product.dresses.field_description
+    - field.field.commerce_product.dresses.field_feature_product
     - field.field.commerce_product.dresses.field_tags
   module:
     - commerce_product
@@ -46,6 +47,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 15
+    region: content
+  field_feature_product:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 16
     region: content
   field_tags:
     type: entity_reference_label

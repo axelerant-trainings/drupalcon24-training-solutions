@@ -1,0 +1,21 @@
+uuid: bff401fd-ba68-403d-8204-798ec801323c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tops
+    - field.storage.commerce_product.field_feature_product
+id: commerce_product.tops.field_feature_product
+field_name: field_feature_product
+entity_type: commerce_product
+bundle: tops
+label: 'Feature Product'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
