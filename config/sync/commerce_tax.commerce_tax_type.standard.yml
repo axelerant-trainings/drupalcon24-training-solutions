@@ -1,0 +1,19 @@
+uuid: 45097086-9386-42d2-a4b3-0babe84f37ce
+langcode: en
+status: true
+dependencies: {  }
+id: standard
+label: Standard
+plugin: custom
+configuration:
+  display_inclusive: true
+  display_label: tax
+  round: true
+  rates:
+    -
+      id: 7d858dbe-bc84-42c3-9ebc-3d896da0a15e
+      label: Standard
+      percentage: '0.12'
+  territories: {  }
+conditions: {  }
+conditionOperator: AND
