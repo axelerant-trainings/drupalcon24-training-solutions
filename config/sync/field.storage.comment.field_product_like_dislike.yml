@@ -1,0 +1,19 @@
+uuid: f199df52-36e4-415e-ab8a-becd5b762ce4
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - like_dislike
+id: comment.field_product_like_dislike
+field_name: field_product_like_dislike
+entity_type: comment
+type: like_dislike
+settings: {  }
+module: like_dislike
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
