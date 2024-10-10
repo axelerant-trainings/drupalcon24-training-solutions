@@ -5,7 +5,7 @@
 | Placeholder | Example |
 | --- | --- |
 | `#GIT_PRIMARY_DEV_BRANCH` | `develop` |
-| `#GITLAB_PROJECT` | The "project" in https://github.com/axelerant-trainings/drupalcon24-training-solutions |
+| `#GITHUB_PROJECT` | The "project" in https://github.com/axelerant-trainings/drupalcon24-training-solutions |
 | `#JIRA_URL` | https://axelerant.atlassian.net/browse/LDT-962 |
 | `#LOCAL_DEV_SITE_ALIAS` | `@drupalcon24` |
 | `#LOCAL_DEV_URL` | https://drupalcon24.ddev.site/ |
