@@ -23,51 +23,59 @@ the latest version or at least the minimum version mentioned below.
 ### Steps to setup project:
 
 ```bash
-$ git clone git@github.com:axelerant-trainings/drupalcon24-training-solutions.git
+git clone git@github.com:axelerant-trainings/drupalcon24-training-solutions.git
 ```
 Change to the directory of repository.
 
 ```bash
-$ cd drupalcon24-training-solutions
+cd drupalcon24-training-solutions
 ```
+Checkout to `develop` branch.
 
+```bash
+git checkout -b develop origin/develop
+```
 Once authenticated, run the following command to start the application.
 
 ```bash
-$ ddev start
+ddev start
 ```
 Once DDEV has been setup successfully, it will display the links in the
 terminal. Next, run the following to fetch all dependencies.
 
 ```bash
-$ ddev composer install
+ddev composer install
 ```
 
-Import base DB
+Import base DB, make sure yo have your DB in current folder drupalcon24-training-solutions.
 ```bash
-$ ddev import-db --file=drupalcon24.sql.gz
+ddev import-db --file=drupalcon24.sql.gz
 ```
 
 Clear cache.
 
 ```bash
-$ drush cr
+ddev drush cr
 ```
 
 Import configuration
 ```bash
-$ drush cim
+ddev drush cim
 ```
 
 Clear cache again.
 ```bash
-$ drush cr
+ddev drush cr
 ```
 
 Generate a one time login link and reset the password through it.
 
 ```bash
-$ drush uli
+ddev drush uli
+```
+Or directly launch the site 
+```bash
+ddev launch $(ddev drush uli)
 ```
 
 Congratulations! You can now access the site at: [https://drupalcon24.ddev.site/](https://drupalcon24.ddev.site/).
