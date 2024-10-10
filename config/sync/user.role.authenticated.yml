@@ -11,6 +11,7 @@ dependencies:
     - commerce_payment
     - commerce_product
     - contact
+    - create_user_permission
     - file
     - filter
     - fivestar
@@ -30,6 +31,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create users'
   - 'delete own files'
   - 'manage own commerce_payment_method'
   - 'post comments'
