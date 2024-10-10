@@ -5,6 +5,7 @@ module:
   admin_toolbar: 0
   announcements_feed: 0
   automated_cron: 0
+  basic_auth: 0
   big_pipe: 0
   block: 0
   block_content: 0
@@ -44,8 +45,10 @@ module:
   image: 0
   inline_entity_form: 0
   jsonapi: 0
+  jsonapi_extras: 0
   jsonapi_hypermedia: 0
   jsonapi_resources: 0
+  jsonapi_views: 0
   like_dislike: 0
   link: 0
   menu_link_content: 0
