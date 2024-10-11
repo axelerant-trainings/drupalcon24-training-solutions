@@ -20,54 +20,69 @@ the latest version or at least the minimum version mentioned below.
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - v2.40.0
 
 
-### Steps to setup project:
+## Setup project [One Time]
 
 ```bash
-$ git clone git@github.com:axelerant-trainings/drupalcon24-training-solutions.git
+git clone git@github.com:axelerant-trainings/drupalcon24-training-solutions.git
 ```
 Change to the directory of repository.
 
 ```bash
-$ cd drupalcon24-training-solutions
+cd drupalcon24-training-solutions
 ```
+Checkout to `develop` branch.
 
+```bash
+git checkout -b develop origin/develop
+```
 Once authenticated, run the following command to start the application.
 
 ```bash
-$ ddev start
+ddev start
 ```
 Once DDEV has been setup successfully, it will display the links in the
 terminal. Next, run the following to fetch all dependencies.
 
 ```bash
-$ ddev composer install
+ddev composer install
 ```
 
-Import base DB
+Import base DB, make sure yo have your DB in current folder drupalcon24-training-solutions.
 ```bash
-$ ddev import-db --file=drupalcon24.sql.gz
+ddev import-db --file=drupalcon24.sql.gz
 ```
 
 Clear cache.
 
 ```bash
-$ drush cr
+ddev drush cr
 ```
 
 Import configuration
 ```bash
-$ drush cim
+ddev drush cim
 ```
 
 Clear cache again.
 ```bash
-$ drush cr
+ddev drush cr
 ```
 
 Generate a one time login link and reset the password through it.
-
 ```bash
-$ drush uli
+ddev drush uli
+```
+Or directly launch the site 
+```bash
+ddev launch $(ddev drush uli)
 ```
 
 Congratulations! You can now access the site at: [https://drupalcon24.ddev.site/](https://drupalcon24.ddev.site/).
+
+## Local Development
+Once this new setup is done you can use `develop` branch to for development and adding new features. And we will follow the steps the way we do for client projects: 
+1. Pulling latest code from develop `git checkout develop` + `git pull origin develop`
+2. Creating a feature branch containing ticket number and short title of the feature `git checkout -b ldt-100-feature-abc`
+3. Committing the code `git commit -m "Your commit message"`
+4. Pushing the code in your branch `git push origin ldt-100-feature-abc`
+5. Creatting a Pull Request(PR) over Github against the `develp` branch
