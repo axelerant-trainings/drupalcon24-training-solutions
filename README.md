@@ -20,7 +20,7 @@ the latest version or at least the minimum version mentioned below.
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - v2.40.0
 
 
-### Steps to setup project:
+## Setup project [One Time]
 
 ```bash
 git clone git@github.com:axelerant-trainings/drupalcon24-training-solutions.git
@@ -69,7 +69,6 @@ ddev drush cr
 ```
 
 Generate a one time login link and reset the password through it.
-
 ```bash
 ddev drush uli
 ```
@@ -79,3 +78,11 @@ ddev launch $(ddev drush uli)
 ```
 
 Congratulations! You can now access the site at: [https://drupalcon24.ddev.site/](https://drupalcon24.ddev.site/).
+
+## Local Development
+Once this new setup is done you can use `develop` branch to for development and adding new features. And we will follow the steps the way we do for client projects: 
+1. Pulling latest code from develop `git checkout develop` + `git pull origin develop`
+2. Creating a feature branch containing ticket number and short title of the feature `git checkout -b ldt-100-feature-abc`
+3. Committing the code `git commit -m "Your commit message"`
+4. Pushing the code in your branch `git push origin ldt-100-feature-abc`
+5. Creatting a Pull Request(PR) over Github against the `develp` branch
