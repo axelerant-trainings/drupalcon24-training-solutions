@@ -2458,6 +2458,58 @@
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core."
         },
         {
+            "name": "drupal/create_user_permission",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/create_user_permission.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/create_user_permission-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "14fa3ad7daba09571de43ee83aaf938f91e34a5c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1689871727",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "efpapado",
+                    "homepage": "https://www.drupal.org/user/1009348"
+                },
+                {
+                    "name": "eiriksm",
+                    "homepage": "https://www.drupal.org/user/1014468"
+                },
+                {
+                    "name": "esolitos",
+                    "homepage": "https://www.drupal.org/user/1567500"
+                }
+            ],
+            "description": "Provides a permission to \"create users\", instead of having to \"administer users\".",
+            "homepage": "https://www.drupal.org/project/create_user_permission",
+            "support": {
+                "source": "https://git.drupalcode.org/project/create_user_permission"
+            }
+        },
+        {
             "name": "drupal/entity",
             "version": "1.5.0",
             "source": {
@@ -8559,7 +8611,7 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
