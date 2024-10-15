@@ -10,5 +10,5 @@ description: ''
 variationType: dresses
 variationTypes:
   - dresses
-multipleVariations: false
-injectVariationFields: false
+multipleVariations: true
+injectVariationFields: true
