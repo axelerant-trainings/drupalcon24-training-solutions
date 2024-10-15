@@ -15,7 +15,6 @@ dependencies:
   module:
     - comment
     - commerce
-    - commerce_product
     - fivestar
     - path
     - text
@@ -141,12 +140,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  variations:
-    type: commerce_product_single_variation
-    weight: 6
-    region: content
-    settings:
-      form_mode: default
-      field_title_text: 'Product information'
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  variations: true

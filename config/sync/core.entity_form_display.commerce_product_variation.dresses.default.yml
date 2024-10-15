@@ -7,6 +7,7 @@ dependencies:
     - field.field.commerce_product_variation.dresses.attribute_color
     - field.field.commerce_product_variation.dresses.attribute_size
     - field.field.commerce_product_variation.dresses.field_images
+    - field.field.commerce_product_variation.dresses.field_stock
     - image.style.thumbnail
   module:
     - commerce_price
@@ -30,11 +31,18 @@ content:
     third_party_settings: {  }
   field_images:
     type: image_image
-    weight: 6
+    weight: 7
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_stock:
+    type: number
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
     third_party_settings: {  }
   list_price:
     type: commerce_list_price
@@ -58,7 +66,7 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 7
+    weight: 8
     region: content
     settings:
       display_label: true
