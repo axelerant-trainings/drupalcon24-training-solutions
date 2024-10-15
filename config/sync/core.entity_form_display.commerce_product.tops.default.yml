@@ -9,9 +9,13 @@ dependencies:
     - field.field.commerce_product.tops.field_category
     - field.field.commerce_product.tops.field_description
     - field.field.commerce_product.tops.field_feature_product
+    - field.field.commerce_product.tops.field_product_average_rating
+    - field.field.commerce_product.tops.field_product_review
     - field.field.commerce_product.tops.field_tags
   module:
+    - comment
     - commerce
+    - fivestar
     - inline_entity_form
     - path
     - text
@@ -71,6 +75,21 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
+  field_product_average_rating:
+    type: fivestar_stars
+    weight: 11
+    region: content
+    settings:
+      text_format: none
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+  field_product_review:
+    type: comment_default
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete
     weight: 3
@@ -83,13 +102,13 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 11
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 12
+    weight: 14
     region: content
     settings:
       display_label: true
