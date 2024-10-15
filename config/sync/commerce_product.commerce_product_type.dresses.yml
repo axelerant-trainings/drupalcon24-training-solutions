@@ -1,0 +1,14 @@
+uuid: 6a232f27-9609-4473-805c-18592335eafb
+langcode: en
+status: true
+dependencies: {  }
+id: dresses
+label: Dresses
+traits: {  }
+locked: false
+description: ''
+variationType: dresses
+variationTypes:
+  - dresses
+multipleVariations: false
+injectVariationFields: false

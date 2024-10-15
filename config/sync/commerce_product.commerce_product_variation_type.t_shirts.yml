@@ -1,0 +1,10 @@
+uuid: 8d332a41-513a-45e4-b5ff-34ed915e90af
+langcode: en
+status: true
+dependencies: {  }
+id: t_shirts
+label: T-shirts
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null

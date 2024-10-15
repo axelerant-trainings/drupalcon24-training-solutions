@@ -1,0 +1,22 @@
+uuid: da70da1a-5978-4259-9f68-a5e084ea29e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tops
+id: commerce_product.tops.status
+field_name: status
+entity_type: commerce_product
+bundle: tops
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
