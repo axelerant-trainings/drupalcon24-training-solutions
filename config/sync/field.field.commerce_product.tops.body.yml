@@ -1,0 +1,26 @@
+uuid: 236db42f-de42-413f-8b8e-aab15fea96cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tops
+    - field.storage.commerce_product.body
+    - filter.format.full_html
+  module:
+    - text
+id: commerce_product.tops.body
+field_name: body
+entity_type: commerce_product
+bundle: tops
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - full_html
+field_type: text_with_summary

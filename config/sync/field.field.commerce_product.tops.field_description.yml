@@ -1,0 +1,24 @@
+uuid: 271c2cda-2c59-4c38-b8c8-d054be8aa08a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tops
+    - field.storage.commerce_product.field_description
+    - filter.format.full_html
+  module:
+    - text
+id: commerce_product.tops.field_description
+field_name: field_description
+entity_type: commerce_product
+bundle: tops
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

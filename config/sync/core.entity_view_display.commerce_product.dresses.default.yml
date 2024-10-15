@@ -1,0 +1,88 @@
+uuid: 8f7749d5-af56-4409-8da9-413ecd228208
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.dresses
+    - field.field.commerce_product.dresses.body
+    - field.field.commerce_product.dresses.field_brand
+    - field.field.commerce_product.dresses.field_category
+    - field.field.commerce_product.dresses.field_description
+    - field.field.commerce_product.dresses.field_feature_product
+    - field.field.commerce_product.dresses.field_tags
+  module:
+    - commerce_product
+    - text
+id: commerce_product.dresses.default
+targetEntityType: commerce_product
+bundle: dresses
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_feature_product:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true
