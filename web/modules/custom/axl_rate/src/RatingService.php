@@ -4,11 +4,26 @@ namespace Drupal\axl_rate;
 
 use Drupal\commerce_product\Entity\Product;
 use Drupal\comment\CommentInterface;
+use Drupal\Core\Database\Connection;
 
 /**
  * Rating service.
  */
 class RatingService {
+
+  /**
+   * The database connection.
+   *
+   * @var \Drupal\Core\Database\Connection
+   */
+  protected $connection;
+
+  /**
+   * {@inheritdoc}
+   */
+  public function __construct(Connection $connection) {
+    $this->connection = $connection;
+  }
 
   /**
    * To manage product rating.
@@ -60,8 +75,7 @@ class RatingService {
    */
   public function getProductRatings($product_id, $entity_type, $comment_type) : array {
 
-    $database = \Drupal::database();
-    $query = $database->select('comment__field_rating', 'cfr');
+    $query = $this->connection->select('comment__field_rating', 'cfr');
     $query->join('comment_field_data', 'cfd', 'cfd.cid = cfr.entity_id');
     $query->fields('cfr', ['field_rating_rating', 'entity_id']);
     $query->condition('cfd.comment_type', $comment_type);
