@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\comment\CommentInterface;
+
+/**
+ * Implements hook_comment_insert().
+ */
+function axl_rate_comment_insert(CommentInterface $comment) {
+  \Drupal::service('axl_rate.manager')->manageProductRate($comment);
+}
