@@ -1,0 +1,12 @@
+uuid: bdd76110-92eb-41b3-aba2-30330c787087
+langcode: en
+status: true
+dependencies: {  }
+id: jsonapi_search_api_facets__default_index
+name: 'jsonapi_search_api_facets:default_index'
+filter_key: filter
+url_processor: json_api
+breadcrumb:
+  active: false
+  before: true
+  group: false

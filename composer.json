@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.5",
         "drupal/color_field": "^3.0",
         "drupal/commerce": "^3.0@alpha",
@@ -26,9 +27,11 @@
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/create_user_permission": "^2.0",
+        "drupal/facets": "^2.0",
         "drupal/fivestar": "^1.0@alpha",
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/jsonapi_extras": "^3.26",
+        "drupal/jsonapi_search_api": "^1.0@RC",
         "drupal/jsonapi_views": "^1.1",
         "drupal/like_dislike": "^2.4",
         "drupal/votingapi": "^3.0@beta",
@@ -42,11 +45,12 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
-            "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
         },
         "sort-packages": true
     },
@@ -84,6 +88,11 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
+            "drupal/facets": {
+                "Input value 'page' contains a non-scalar value": "./patches/facets-non-scaler-error.patch"
+            }
         },
         "drupal-core-project-message": {
             "include-keys": [

@@ -38,6 +38,7 @@ module:
   editor: 0
   entity: 0
   entity_reference_revisions: 0
+  facets: 0
   field: 0
   field_ui: 0
   file: 0
@@ -51,6 +52,8 @@ module:
   jsonapi_extras: 0
   jsonapi_hypermedia: 0
   jsonapi_resources: 0
+  jsonapi_search_api: 0
+  jsonapi_search_api_facets: 0
   jsonapi_views: 0
   like_dislike: 0
   link: 0
@@ -64,6 +67,9 @@ module:
   path_alias: 0
   profile: 0
   search: 0
+  search_api: 0
+  search_api_db: 0
+  search_api_db_defaults: 0
   serialization: 0
   shortcut: 0
   state_machine: 0
