@@ -1,0 +1,12 @@
+diff --git a/src/Plugin/facets/url_processor/QueryString.php b/src/Plugin/facets/url_processor/QueryString.php
+index 8fc7edd..45b328b 100644
+--- a/src/Plugin/facets/url_processor/QueryString.php
++++ b/src/Plugin/facets/url_processor/QueryString.php
+@@ -89,7 +89,7 @@ class QueryString extends UrlProcessorPluginBase {
+     // When adding/removing a filter the number of pages may have changed,
+     // possibly resulting in an invalid page parameter.
+     if ($get_params->has('page')) {
+-      $current_page = $get_params->get('page');
++      $current_page = $get_params->all()['page'];
+       $get_params->remove('page');
+     }
