@@ -12,7 +12,7 @@ dependencies:
     - field.storage.commerce_product.field_product_review
     - field.storage.commerce_product.field_tags
     - field.storage.commerce_product_variation.attribute_color
-    - field.storage.commerce_product_variation.attribute_size
+    - field.storage.commerce_product_variation.attribute_sizes
     - search_api.server.default_server
   module:
     - commerce_product
@@ -32,14 +32,14 @@ field_settings:
         - field.storage.commerce_product_variation.attribute_color
       module:
         - commerce_product
-  attribute_size:
-    label: 'Variations » Product variation » Size'
+  attribute_sizes:
+    label: 'Variations » Product variation » Sizes'
     datasource_id: 'entity:commerce_product'
-    property_path: 'variations:entity:attribute_size'
+    property_path: 'variations:entity:attribute_sizes'
     type: integer
     dependencies:
       config:
-        - field.storage.commerce_product_variation.attribute_size
+        - field.storage.commerce_product_variation.attribute_sizes
       module:
         - commerce_product
   body:

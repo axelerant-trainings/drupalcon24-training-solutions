@@ -5,7 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.dresses
     - field.field.commerce_product_variation.dresses.attribute_color
-    - field.field.commerce_product_variation.dresses.attribute_size
+    - field.field.commerce_product_variation.dresses.attribute_sizes
     - field.field.commerce_product_variation.dresses.field_images
     - field.field.commerce_product_variation.dresses.field_stock
   module:
@@ -64,6 +64,7 @@ content:
     region: content
 hidden:
   attribute_color: true
-  attribute_size: true
+  attribute_sizes: true
   product_id: true
+  search_api_excerpt: true
   sku: true

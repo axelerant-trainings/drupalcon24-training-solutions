@@ -5,7 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.t_shirts
     - field.field.commerce_product_variation.t_shirts.attribute_color
-    - field.field.commerce_product_variation.t_shirts.attribute_size
+    - field.field.commerce_product_variation.t_shirts.attribute_sizes
     - field.field.commerce_product_variation.t_shirts.field_images
     - field.field.commerce_product_variation.t_shirts.field_stock
   module:
@@ -56,7 +56,8 @@ content:
     region: content
 hidden:
   attribute_color: true
-  attribute_size: true
+  attribute_sizes: true
   product_id: true
+  search_api_excerpt: true
   sku: true
   title: true

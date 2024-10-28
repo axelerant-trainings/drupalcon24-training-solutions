@@ -1,18 +1,18 @@
-uuid: eb896438-aa8e-4aaa-b39b-166f7472ffd3
+uuid: e8c71e46-f7c9-455a-b3bd-6e1b8f580a54
 langcode: en
 status: true
 dependencies:
   module:
     - jsonapi_search_api_facets
-id: size
-name: Size
+id: sizes
+name: Sizes
 weight: 0
 min_count: 1
 missing: false
 missing_label: others
-url_alias: size
+url_alias: sizes
 facet_source_id: 'jsonapi_search_api_facets:products'
-field_identifier: attribute_size
+field_identifier: attribute_sizes
 query_operator: or
 hard_limit: 0
 exclude: false
