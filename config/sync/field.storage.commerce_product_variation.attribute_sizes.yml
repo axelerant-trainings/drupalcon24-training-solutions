@@ -1,11 +1,11 @@
-uuid: 5d4e0b66-424b-427c-9368-b007b19df62e
+uuid: a0bc5a18-3c96-4ee1-bbc5-4233190171a1
 langcode: en
 status: true
 dependencies:
   module:
     - commerce_product
-id: commerce_product_variation.attribute_size
-field_name: attribute_size
+id: commerce_product_variation.attribute_sizes
+field_name: attribute_sizes
 entity_type: commerce_product_variation
 type: entity_reference
 settings:
