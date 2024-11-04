@@ -11,6 +11,8 @@ dependencies:
     - field.storage.commerce_product.field_product_average_rating
     - field.storage.commerce_product.field_product_review
     - field.storage.commerce_product.field_tags
+    - field.storage.commerce_product_variation.attribute_color
+    - field.storage.commerce_product_variation.attribute_sizes
     - search_api.server.default_server
   module:
     - commerce_product
@@ -20,6 +22,26 @@ name: Products
 description: ''
 read_only: false
 field_settings:
+  attribute_color:
+    label: 'Variations » Product variation » Color'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:attribute_color'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_color
+      module:
+        - commerce_product
+  attribute_sizes:
+    label: 'Variations » Product variation » Sizes'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:attribute_sizes'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_sizes
+      module:
+        - commerce_product
   body:
     label: Body
     datasource_id: 'entity:commerce_product'
@@ -112,7 +134,7 @@ field_settings:
     label: 'Variations » Product variation » Price » Number'
     datasource_id: 'entity:commerce_product'
     property_path: 'variations:entity:price:number'
-    type: integer
+    type: decimal
     dependencies:
       module:
         - commerce_product
