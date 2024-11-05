@@ -1,0 +1,38 @@
+uuid: d2e87083-2f35-4be1-9565-bd8e51fa619a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_item
+    - field.storage.block_content.field_image
+  module:
+    - image
+id: block_content.card_item.field_image
+field_name: field_image
+entity_type: block_content
+bundle: card_item
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

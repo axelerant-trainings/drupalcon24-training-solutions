@@ -1,0 +1,8 @@
+uuid: e7bcf282-44f3-45f3-a164-82b458a190b0
+langcode: en
+status: true
+dependencies: {  }
+id: image_card
+label: 'Image Card'
+revision: false
+description: null
