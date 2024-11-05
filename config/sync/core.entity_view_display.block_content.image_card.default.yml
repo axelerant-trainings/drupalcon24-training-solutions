@@ -1,0 +1,22 @@
+uuid: 698c7530-64f2-4214-93ef-75dad6723e4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_card
+    - field.field.block_content.image_card.field_card_items
+id: block_content.image_card.default
+targetEntityType: block_content
+bundle: image_card
+mode: default
+content:
+  field_card_items:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true
