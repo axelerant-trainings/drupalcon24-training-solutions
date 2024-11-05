@@ -1,0 +1,8 @@
+uuid: bf2c6d43-168e-4464-a12f-8abf8f4cae36
+langcode: en
+status: true
+dependencies: {  }
+id: card_item
+label: 'Card Item'
+revision: false
+description: null

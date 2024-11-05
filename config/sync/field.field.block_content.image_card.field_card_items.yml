@@ -1,0 +1,29 @@
+uuid: 741f5f1e-eabd-4afb-8b43-8b368ca403df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_item
+    - block_content.type.image_card
+    - field.storage.block_content.field_card_items
+id: block_content.image_card.field_card_items
+field_name: field_card_items
+entity_type: block_content
+bundle: image_card
+label: 'Card Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      card_item: card_item
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
