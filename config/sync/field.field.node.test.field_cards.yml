@@ -1,0 +1,29 @@
+uuid: 32ab4609-8de6-49fc-860c-c1315d36fd6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_card
+    - field.storage.node.field_cards
+    - node.type.test
+id: node.test.field_cards
+field_name: field_cards
+entity_type: node
+bundle: test
+label: Cards
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      image_card: image_card
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: card_item
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 8fbed976-4864-48f9-9b82-6d3d16aa7e96
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+id: node.field_cards
+field_name: field_cards
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
