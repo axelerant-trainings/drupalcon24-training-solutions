@@ -15,6 +15,8 @@ dependencies:
     - file
     - filter
     - fivestar
+    - profile
+    - search
     - shortcut
     - system
 _core:
@@ -31,19 +33,27 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'administer commerce_payment'
+  - 'create customer profile'
+  - 'create default commerce_order'
   - 'create users'
   - 'delete own files'
   - 'edit own comments'
   - 'manage own commerce_payment_method'
   - 'post comments'
   - 'rate content'
+  - 'search content'
   - 'skip comment approval'
+  - 'update default commerce_order'
   - 'use text format basic_html'
   - 'view commerce_product'
   - 'view commerce_product_attribute'
   - 'view default commerce_product'
   - 'view dresses commerce_product'
   - 'view own commerce_order'
+  - 'view own customer profile'
+  - 'view own profile'
   - 'view own unpublished commerce_product'
+  - 'view own unpublished profile'
   - 'view t_shirts commerce_product'
   - 'view tops commerce_product'
