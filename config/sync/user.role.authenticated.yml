@@ -33,6 +33,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'administer commerce_payment'
   - 'create customer profile'
   - 'create default commerce_order'
   - 'create users'
