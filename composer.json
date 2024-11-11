@@ -27,6 +27,7 @@
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/create_user_permission": "^2.0",
+        "drupal/default_content_deploy": "^2.1@RC",
         "drupal/facets": "^2.0",
         "drupal/fivestar": "^1.0@alpha",
         "drupal/inline_entity_form": "^3.0@RC",
@@ -35,7 +36,7 @@
         "drupal/jsonapi_views": "^1.1",
         "drupal/like_dislike": "^2.4",
         "drupal/votingapi": "^3.0@beta",
-        "drush/drush": "^13.2"
+        "drush/drush": "^13.3"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -61,6 +62,9 @@
             },
              "drupal/facets": {
                 "Input value 'page' contains a non-scalar value": "./patches/facets-non-scaler-error.patch"
+            },
+            "drupal/default_content_deploy": {
+                "#3481571-2: Issues exporting with reference": "https://www.drupal.org/files/issues/2024-10-17/dcd-fix-export-with-references-3481571-2.patch"
             }
         },
         "drupal-scaffold": {
