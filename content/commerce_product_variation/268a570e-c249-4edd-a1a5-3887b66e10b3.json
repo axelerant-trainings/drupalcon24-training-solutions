@@ -1,0 +1,182 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_variation\/tops"
+        },
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/uid": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/product_id": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/product\/5?_format=hal_json"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/attribute_color": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/attribute_sizes": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "variation_id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "268a570e-c249-4edd-a1a5-3887b66e10b3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "tops"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d9996d5-056a-48a9-9139-817690771f21"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/product_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/product\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product\/tops"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "659595e9-3f81-4d39-a1ba-f3ae96e3090b"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/attribute_color": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/color"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0dfa5ee5-44aa-4333-9658-12b41573d4fe"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/tops\/attribute_sizes": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/sizes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37473247-d843-4786-af68-f1c7a4327cb5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sku": [
+        {
+            "value": "BT1"
+        }
+    ],
+    "title": [
+        {
+            "value": "Black Top",
+            "lang": "en"
+        }
+    ],
+    "price": [
+        {
+            "number": "10.000000",
+            "currency_code": "USD",
+            "formatted": "$10.00"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-10-18T07:52:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-11-04T11:46:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "resolved_price": [
+        {
+            "number": "10.000000",
+            "currency_code": "USD",
+            "formatted": "$10.00"
+        }
+    ],
+    "field_stock": [
+        {
+            "value": 6
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1731326200
+    }
+}

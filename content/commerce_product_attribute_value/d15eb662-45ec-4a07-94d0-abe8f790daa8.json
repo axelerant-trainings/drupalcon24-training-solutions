@@ -1,0 +1,71 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/color"
+        }
+    },
+    "attribute_value_id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d15eb662-45ec-4a07-94d0-abe8f790daa8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "attribute": [
+        {
+            "target_id": "color"
+        }
+    ],
+    "name": [
+        {
+            "value": "Black",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-10-15T11:13:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-10-15T11:13:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_color_hex_code": [
+        {
+            "color": "#D3D3D3",
+            "opacity": 1
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1731325857
+    }
+}

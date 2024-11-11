@@ -1,0 +1,898 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/store\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_store\/online"
+        },
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_store\/online\/uid": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "store_id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "862d683d-3873-4279-98a6-0ed5528abdf7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "online"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_store\/online\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d9996d5-056a-48a9-9139-817690771f21"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Online Store",
+            "lang": "en"
+        }
+    ],
+    "default_currency": [
+        {
+            "target_id": "USD",
+            "lang": "en"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "UTC"
+        }
+    ],
+    "address": [
+        {
+            "langcode": null,
+            "country_code": "IN",
+            "administrative_area": "DL",
+            "locality": "Gurgaon",
+            "dependent_locality": null,
+            "postal_code": "122002",
+            "sorting_code": null,
+            "address_line1": "Unit No. FF 9-10 Jmd Regent Plaza M.G. Road",
+            "address_line2": ""
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-10-15T10:23:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-10-15T15:41:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "prices_include_tax": [
+        {
+            "value": false
+        }
+    ],
+    "tax_registrations": [
+        {
+            "value": "AF"
+        },
+        {
+            "value": "AX"
+        },
+        {
+            "value": "AL"
+        },
+        {
+            "value": "DZ"
+        },
+        {
+            "value": "AS"
+        },
+        {
+            "value": "AD"
+        },
+        {
+            "value": "AO"
+        },
+        {
+            "value": "AI"
+        },
+        {
+            "value": "AQ"
+        },
+        {
+            "value": "AG"
+        },
+        {
+            "value": "AR"
+        },
+        {
+            "value": "AM"
+        },
+        {
+            "value": "AW"
+        },
+        {
+            "value": "AC"
+        },
+        {
+            "value": "AU"
+        },
+        {
+            "value": "AT"
+        },
+        {
+            "value": "AZ"
+        },
+        {
+            "value": "BS"
+        },
+        {
+            "value": "BH"
+        },
+        {
+            "value": "BD"
+        },
+        {
+            "value": "BB"
+        },
+        {
+            "value": "BY"
+        },
+        {
+            "value": "BE"
+        },
+        {
+            "value": "BZ"
+        },
+        {
+            "value": "BJ"
+        },
+        {
+            "value": "BM"
+        },
+        {
+            "value": "BT"
+        },
+        {
+            "value": "BO"
+        },
+        {
+            "value": "BA"
+        },
+        {
+            "value": "BW"
+        },
+        {
+            "value": "BV"
+        },
+        {
+            "value": "BR"
+        },
+        {
+            "value": "IO"
+        },
+        {
+            "value": "VG"
+        },
+        {
+            "value": "BN"
+        },
+        {
+            "value": "BG"
+        },
+        {
+            "value": "BF"
+        },
+        {
+            "value": "BI"
+        },
+        {
+            "value": "KH"
+        },
+        {
+            "value": "CM"
+        },
+        {
+            "value": "CA"
+        },
+        {
+            "value": "IC"
+        },
+        {
+            "value": "CV"
+        },
+        {
+            "value": "BQ"
+        },
+        {
+            "value": "KY"
+        },
+        {
+            "value": "CF"
+        },
+        {
+            "value": "EA"
+        },
+        {
+            "value": "TD"
+        },
+        {
+            "value": "CL"
+        },
+        {
+            "value": "CN"
+        },
+        {
+            "value": "CX"
+        },
+        {
+            "value": "CP"
+        },
+        {
+            "value": "CC"
+        },
+        {
+            "value": "CO"
+        },
+        {
+            "value": "KM"
+        },
+        {
+            "value": "CG"
+        },
+        {
+            "value": "CD"
+        },
+        {
+            "value": "CK"
+        },
+        {
+            "value": "CR"
+        },
+        {
+            "value": "CI"
+        },
+        {
+            "value": "HR"
+        },
+        {
+            "value": "CU"
+        },
+        {
+            "value": "CW"
+        },
+        {
+            "value": "CY"
+        },
+        {
+            "value": "CZ"
+        },
+        {
+            "value": "DK"
+        },
+        {
+            "value": "DG"
+        },
+        {
+            "value": "DJ"
+        },
+        {
+            "value": "DM"
+        },
+        {
+            "value": "DO"
+        },
+        {
+            "value": "EC"
+        },
+        {
+            "value": "EG"
+        },
+        {
+            "value": "SV"
+        },
+        {
+            "value": "GQ"
+        },
+        {
+            "value": "ER"
+        },
+        {
+            "value": "EE"
+        },
+        {
+            "value": "SZ"
+        },
+        {
+            "value": "ET"
+        },
+        {
+            "value": "FK"
+        },
+        {
+            "value": "FO"
+        },
+        {
+            "value": "FJ"
+        },
+        {
+            "value": "FI"
+        },
+        {
+            "value": "FR"
+        },
+        {
+            "value": "GF"
+        },
+        {
+            "value": "PF"
+        },
+        {
+            "value": "TF"
+        },
+        {
+            "value": "GA"
+        },
+        {
+            "value": "GM"
+        },
+        {
+            "value": "GE"
+        },
+        {
+            "value": "DE"
+        },
+        {
+            "value": "GH"
+        },
+        {
+            "value": "GI"
+        },
+        {
+            "value": "GR"
+        },
+        {
+            "value": "GL"
+        },
+        {
+            "value": "GD"
+        },
+        {
+            "value": "GP"
+        },
+        {
+            "value": "GU"
+        },
+        {
+            "value": "GT"
+        },
+        {
+            "value": "GG"
+        },
+        {
+            "value": "GN"
+        },
+        {
+            "value": "GW"
+        },
+        {
+            "value": "GY"
+        },
+        {
+            "value": "HT"
+        },
+        {
+            "value": "HM"
+        },
+        {
+            "value": "HN"
+        },
+        {
+            "value": "HK"
+        },
+        {
+            "value": "HU"
+        },
+        {
+            "value": "IS"
+        },
+        {
+            "value": "IN"
+        },
+        {
+            "value": "ID"
+        },
+        {
+            "value": "IR"
+        },
+        {
+            "value": "IQ"
+        },
+        {
+            "value": "IE"
+        },
+        {
+            "value": "IM"
+        },
+        {
+            "value": "IL"
+        },
+        {
+            "value": "IT"
+        },
+        {
+            "value": "JM"
+        },
+        {
+            "value": "JP"
+        },
+        {
+            "value": "JE"
+        },
+        {
+            "value": "JO"
+        },
+        {
+            "value": "KZ"
+        },
+        {
+            "value": "KE"
+        },
+        {
+            "value": "KI"
+        },
+        {
+            "value": "XK"
+        },
+        {
+            "value": "KW"
+        },
+        {
+            "value": "KG"
+        },
+        {
+            "value": "LA"
+        },
+        {
+            "value": "LV"
+        },
+        {
+            "value": "LB"
+        },
+        {
+            "value": "LS"
+        },
+        {
+            "value": "LR"
+        },
+        {
+            "value": "LY"
+        },
+        {
+            "value": "LI"
+        },
+        {
+            "value": "LT"
+        },
+        {
+            "value": "LU"
+        },
+        {
+            "value": "MO"
+        },
+        {
+            "value": "MG"
+        },
+        {
+            "value": "MW"
+        },
+        {
+            "value": "MY"
+        },
+        {
+            "value": "MV"
+        },
+        {
+            "value": "ML"
+        },
+        {
+            "value": "MT"
+        },
+        {
+            "value": "MH"
+        },
+        {
+            "value": "MQ"
+        },
+        {
+            "value": "MR"
+        },
+        {
+            "value": "MU"
+        },
+        {
+            "value": "YT"
+        },
+        {
+            "value": "MX"
+        },
+        {
+            "value": "FM"
+        },
+        {
+            "value": "MD"
+        },
+        {
+            "value": "MC"
+        },
+        {
+            "value": "MN"
+        },
+        {
+            "value": "ME"
+        },
+        {
+            "value": "MS"
+        },
+        {
+            "value": "MA"
+        },
+        {
+            "value": "MZ"
+        },
+        {
+            "value": "MM"
+        },
+        {
+            "value": "NA"
+        },
+        {
+            "value": "NR"
+        },
+        {
+            "value": "NP"
+        },
+        {
+            "value": "NL"
+        },
+        {
+            "value": "NC"
+        },
+        {
+            "value": "NZ"
+        },
+        {
+            "value": "NI"
+        },
+        {
+            "value": "NE"
+        },
+        {
+            "value": "NG"
+        },
+        {
+            "value": "NU"
+        },
+        {
+            "value": "NF"
+        },
+        {
+            "value": "KP"
+        },
+        {
+            "value": "MK"
+        },
+        {
+            "value": "MP"
+        },
+        {
+            "value": "NO"
+        },
+        {
+            "value": "OM"
+        },
+        {
+            "value": "PK"
+        },
+        {
+            "value": "PW"
+        },
+        {
+            "value": "PS"
+        },
+        {
+            "value": "PA"
+        },
+        {
+            "value": "PG"
+        },
+        {
+            "value": "PY"
+        },
+        {
+            "value": "PE"
+        },
+        {
+            "value": "PH"
+        },
+        {
+            "value": "PN"
+        },
+        {
+            "value": "PL"
+        },
+        {
+            "value": "PT"
+        },
+        {
+            "value": "PR"
+        },
+        {
+            "value": "QA"
+        },
+        {
+            "value": "RE"
+        },
+        {
+            "value": "RO"
+        },
+        {
+            "value": "RU"
+        },
+        {
+            "value": "RW"
+        },
+        {
+            "value": "WS"
+        },
+        {
+            "value": "SM"
+        },
+        {
+            "value": "ST"
+        },
+        {
+            "value": "SA"
+        },
+        {
+            "value": "SN"
+        },
+        {
+            "value": "RS"
+        },
+        {
+            "value": "SC"
+        },
+        {
+            "value": "SL"
+        },
+        {
+            "value": "SG"
+        },
+        {
+            "value": "SX"
+        },
+        {
+            "value": "SK"
+        },
+        {
+            "value": "SI"
+        },
+        {
+            "value": "SB"
+        },
+        {
+            "value": "SO"
+        },
+        {
+            "value": "ZA"
+        },
+        {
+            "value": "GS"
+        },
+        {
+            "value": "KR"
+        },
+        {
+            "value": "SS"
+        },
+        {
+            "value": "ES"
+        },
+        {
+            "value": "LK"
+        },
+        {
+            "value": "BL"
+        },
+        {
+            "value": "SH"
+        },
+        {
+            "value": "KN"
+        },
+        {
+            "value": "LC"
+        },
+        {
+            "value": "MF"
+        },
+        {
+            "value": "PM"
+        },
+        {
+            "value": "VC"
+        },
+        {
+            "value": "SD"
+        },
+        {
+            "value": "SR"
+        },
+        {
+            "value": "SJ"
+        },
+        {
+            "value": "SE"
+        },
+        {
+            "value": "CH"
+        },
+        {
+            "value": "SY"
+        },
+        {
+            "value": "TW"
+        },
+        {
+            "value": "TJ"
+        },
+        {
+            "value": "TZ"
+        },
+        {
+            "value": "TH"
+        },
+        {
+            "value": "TL"
+        },
+        {
+            "value": "TG"
+        },
+        {
+            "value": "TK"
+        },
+        {
+            "value": "TO"
+        },
+        {
+            "value": "TT"
+        },
+        {
+            "value": "TA"
+        },
+        {
+            "value": "TN"
+        },
+        {
+            "value": "TR"
+        },
+        {
+            "value": "TM"
+        },
+        {
+            "value": "TC"
+        },
+        {
+            "value": "TV"
+        },
+        {
+            "value": "UM"
+        },
+        {
+            "value": "VI"
+        },
+        {
+            "value": "UG"
+        },
+        {
+            "value": "UA"
+        },
+        {
+            "value": "AE"
+        },
+        {
+            "value": "GB"
+        },
+        {
+            "value": "US"
+        },
+        {
+            "value": "UY"
+        },
+        {
+            "value": "UZ"
+        },
+        {
+            "value": "VU"
+        },
+        {
+            "value": "VA"
+        },
+        {
+            "value": "VE"
+        },
+        {
+            "value": "VN"
+        },
+        {
+            "value": "WF"
+        },
+        {
+            "value": "EH"
+        },
+        {
+            "value": "YE"
+        },
+        {
+            "value": "ZM"
+        },
+        {
+            "value": "ZW"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1731326215
+    }
+}
