@@ -1,0 +1,65 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/sizes"
+        }
+    },
+    "attribute_value_id": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "37473247-d843-4786-af68-f1c7a4327cb5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "attribute": [
+        {
+            "target_id": "sizes"
+        }
+    ],
+    "name": [
+        {
+            "value": "S",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-10-28T07:19:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-10-28T07:19:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1731326215
+    }
+}

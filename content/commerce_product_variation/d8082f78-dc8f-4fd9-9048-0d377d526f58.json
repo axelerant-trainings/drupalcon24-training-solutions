@@ -1,0 +1,177 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_variation\/t_shirts"
+        },
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/uid": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/product_id": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/product\/2?_format=hal_json"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/attribute_color": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/attribute_sizes": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "variation_id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d8082f78-dc8f-4fd9-9048-0d377d526f58"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "t_shirts"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d9996d5-056a-48a9-9139-817690771f21"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/product_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/product\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product\/t_shirts"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1b9dfbed-c56e-494f-b266-6a92daae5779"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/attribute_color": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/color"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d15eb662-45ec-4a07-94d0-abe8f790daa8"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/t_shirts\/attribute_sizes": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/sizes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37473247-d843-4786-af68-f1c7a4327cb5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sku": [
+        {
+            "value": "11"
+        }
+    ],
+    "title": [
+        {
+            "value": "test",
+            "lang": "en"
+        }
+    ],
+    "price": [
+        {
+            "number": "20.000000",
+            "currency_code": "USD",
+            "formatted": "$20.00"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-10-15T11:32:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-10-28T07:20:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "resolved_price": [
+        {
+            "number": "20.000000",
+            "currency_code": "USD",
+            "formatted": "$20.00"
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1731326215
+    }
+}

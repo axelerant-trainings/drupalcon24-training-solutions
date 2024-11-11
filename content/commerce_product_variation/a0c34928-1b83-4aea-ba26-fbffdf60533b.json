@@ -1,0 +1,208 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_variation\/dresses"
+        },
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/uid": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/product_id": [
+            {
+                "href": "https:\/\/drupalcon24-2.x.ddev.site\/product\/3?_format=hal_json"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/attribute_color": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/attribute_sizes": [
+            {
+                "href": ""
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/field_images": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "variation_id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a0c34928-1b83-4aea-ba26-fbffdf60533b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "dresses"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0d9996d5-056a-48a9-9139-817690771f21"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/product_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/product\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product\/dresses"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2b82908a-72d4-481e-8e32-c8ceda8ae991"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/attribute_color": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/color"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d15eb662-45ec-4a07-94d0-abe8f790daa8"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/attribute_sizes": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/commerce_product_attribute_value\/sizes"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c5ed381a-7be5-4b99-94ab-20a00456e0c9"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/drupalcon24-2.x.ddev.site\/rest\/relation\/commerce_product_variation\/dresses\/field_images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/drupalcon24-2.x.ddev.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e20637b2-6e99-4cdc-90d7-6581376f6f1a"
+                    }
+                ],
+                "alt": "demo",
+                "title": "",
+                "width": "408",
+                "height": "612"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sku": [
+        {
+            "value": "68"
+        }
+    ],
+    "title": [
+        {
+            "value": "test",
+            "lang": "en"
+        }
+    ],
+    "price": [
+        {
+            "number": "10.000000",
+            "currency_code": "USD",
+            "formatted": "$10.00"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-10-15T18:00:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-11-11T11:51:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "resolved_price": [
+        {
+            "number": "10.000000",
+            "currency_code": "USD",
+            "formatted": "$10.00"
+        }
+    ],
+    "field_stock": [
+        {
+            "value": 7
+        }
+    ],
+    "_dcd_metadata": {
+        "export_timestamp": 1731325894
+    }
+}
