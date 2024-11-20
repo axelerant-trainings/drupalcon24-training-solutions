@@ -9,6 +9,7 @@ dependencies:
     - commerce_checkout
     - commerce_payment
     - commerce_product
+    - commerce_promotion
     - contact
     - create_user_permission
     - filter
@@ -31,6 +32,7 @@ permissions:
   - 'view any commerce_payment_method'
   - 'view commerce_product'
   - 'view commerce_product_attribute'
+  - 'view commerce_promotion'
   - 'view default commerce_product'
   - 'view dresses commerce_product'
   - 'view t_shirts commerce_product'
